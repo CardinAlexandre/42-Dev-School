@@ -17,7 +17,7 @@ char	*ft_strrev(char *str)
 	char	temp;
 
 	compt = 0;
-	s_str = 0;
+	size_str = 0;
 	while (str[size_str])
 	{
 		size_str++;

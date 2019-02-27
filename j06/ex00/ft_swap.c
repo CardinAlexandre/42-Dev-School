@@ -12,9 +12,9 @@
 
 void	ft_swap(int *a, int *b)
 {
-	int i;
+	int temp;
 
-	i = *b;
+	temp = *b;
 	*b = *a;
-	*a = i;
+	*a = temp;
 }

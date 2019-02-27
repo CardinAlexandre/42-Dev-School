@@ -16,8 +16,6 @@ int	ft_strlen(char *str)
 
 	compt = 0;
 	while (str[compt] != '\0')
-	{
 		compt++;
-	}
 	return (compt);
 }
